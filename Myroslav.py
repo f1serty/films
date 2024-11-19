@@ -1,7 +1,7 @@
 import telebot
 from telebot.types import InlineKeyboardButton,InlineKeyboardMarkup
 import filmsM
-bot=telebot.TeleBot("7706935658:AAHvUzDDHGoh6v54YEwEqsQ-Rn69m7Azd9o")
+bot=telebot.TeleBot()
 
 @bot.message_handler(commands=["start"])
 def Start(msg):
